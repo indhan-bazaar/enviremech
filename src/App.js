@@ -1,7 +1,7 @@
 import React from "react";
 
 function App() {
-  return <div>Enviremech Enterprise</div>;
+  return <div>Enviremech</div>;
 }
 
 export default App;
