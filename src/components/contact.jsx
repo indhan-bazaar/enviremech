@@ -101,7 +101,9 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
+                <a href="https://goo.gl/maps/osYWFYjyrZi6AiXQ8" target="_blank" style={{textDecoration:"none", color:"white"}}>
                 {props.data ? props.data.address : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">
