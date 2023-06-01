@@ -1,0 +1,187 @@
+{
+  "Header": {
+    "title": "Boiler Excellence",
+    "title1": "Cost-efficient operations with high productivity",
+    "title2": "Briquettes supplies with Guaranteed Quality & Timely Deliveries",
+    "paragraph": "Unlocking the Potential of Steam Generation with Enviremech's Expertise backed by Skilled workforce and Reliable Boiler Solutions"
+  },
+  "About": {
+    "paragraph": "Enviremech offers sustainable energy solutions and comprehensive services to empower industries across various sectors. With our expertise and commitment to excellence, we offer a wide range of services including Biomass briquette supplies, Boiler Operation and Maintenance. With a focus on innovation and sustainability, we strive to unlock the full potential of biomass energy through our reliable biomass briquette supply, ensuring quality and timely deliveries. Our skilled manpower and technical expertise enable us to operate boilers efficiently, maintaining desired steam pressure and optimizing steam generation for enhanced productivity.",
+    "paragraph2": "At Enviremech, our mission is to be at the forefront of sustainable energy and utility solutions, delivering reliable, efficient, and environmentally-friendly services that empower our clients and contribute to a greener future.",
+    "Why": [
+      "Expertise: Industry Knowledge",
+      "Quality: Superior Standards",
+      "Efficiency: Optimal Performance",
+      "Trust: Proven Track Record"
+    ],
+    "Why2": [
+      "Reliability: Timely Delivery",
+      "Innovation: Cutting-edge Solutions",
+      "Eco-friendly Solutions",
+      "Client-focused Approach"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-fire fa-beat-fade",
+      "name": "Boilers comprehensive O&M contract service provider",
+      "text": "Pay Only for the Steam Consumed in Your Operations. In this facility we operates boiler with required biomass fuel as well as skilled manpower to handle the briquettes and maintain desired steam pressure"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Biomass fuel supply contact",
+      "text": "From sourcing to delivery, We takes care of your biomass fuel needs, offering dependable supply solutions for sustainable energy generation."
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "Technical and skilled labour arrangements for boiler operation",
+      "text": "We provide skilled labour for efficient and smooth boiler operations, ensuring optimal performance, safety and expert support for uninterrupted production."
+    },
+    {
+      "icon": "fa fa-refresh",
+      "name": "Boiler Retrofitting work",
+      "text": "From assessment to implementation, We offers reliable boiler retrofitting services, upgrading your systems for improved performance, reduced emissions, and cost savings."
+    },
+    {
+      "icon": "fa fa-wrench",
+      "name": "ETP /STP installation",
+      "text": "We excels in the installation of efficient ETP/STP systems, ensuring compliance with environmental regulations and promoting sustainable wastewater management."
+    },
+    {
+      "icon": "fa fa-recycle",
+      "name": "ETP /STP comprehensive operation contract",
+      "text": "We offers comprehensive operation contracts for ETP/STP systems, ensuring smooth functioning, regulatory compliance, and effective wastewater treatment."
+    },
+    {
+      "icon": "fa fa-tint",
+      "name": "Water treatment plant comprehensive operation contract",
+      "text": "We provides comprehensive operation contracts for water treatment plants, delivering efficient and reliable management solutions for clean and sustainable water resources and maintaining the highest quality standards."
+    },
+    {
+      "icon": "fa fa-shield",
+      "name": "Utility operation consultant services",
+      "text": "Benefit from Enviremech's utility operation consultant services, leveraging our industry knowledge and experience to enhance the effectiveness and reliability of your utility operations by providing expert guidance and strategies to optimize the performance and efficiency of your utility systems."
+    },
+    {
+      "icon": "fa fa-info",
+      "name": "Engineering Consultancy",
+      "text": "Innovative Solutions catered to your Steam Boiler / ETP / STP / Water Treatment Plants, ensuring optimal efficiency with minimal investment requirements for operations."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/0aj.jpg",
+      "name": "Ajay Gupta",
+      "job": "Director & Domain Expert"
+    }
+  ],
+  "Contact": {
+    "address": "New Delhi, India ",
+    "phone": "+91 9540580400",
+    "email": "enviremech@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Indhan Bazaar",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
