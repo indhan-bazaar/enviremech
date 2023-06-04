@@ -109,6 +109,10 @@ div.card-image img {
   height: auto;
 }
 
+.success {
+  color: white;
+}
+
 /* Phone Devices Query */
 @media only screen and (max-width: 37.5em) {
   div.card-image img {

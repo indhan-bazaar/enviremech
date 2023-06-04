@@ -1,14 +1,16 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import axios from "axios";
 
 const initialState = {
   name: "",
-  email: "",
+  contact: "",
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, contact, message }, setState] = useState(initialState);
+  const [success, setSuccess] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,18 +20,30 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    console.log(name, contact, message);
+    axios
+      .post("https://api.indhanbazaar.com/api/contactenviremech/create", {
+        name,
+        contact: contact,
+        message,
+      })
+      .then((res) => {
+        console.log(res);
+        setSuccess(true);
+      })
+      .catch((err) => {
+        console.log(err);
+      }); // emailjs
+    //   .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       clearState();
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
   };
   return (
     <div>
@@ -63,11 +77,11 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="email"
-                        id="email"
-                        name="email"
+                        type="number"
+                        id="contact"
+                        name="contact"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="Contact"
                         required
                         onChange={handleChange}
                       />
@@ -87,11 +101,15 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
               </form>
+              {success && (
+                <div className="success">
+                  Thank You for contacting us. We will get back to you soon.
+                </div>
+              )}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
@@ -101,8 +119,12 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
-                <a href="https://goo.gl/maps/osYWFYjyrZi6AiXQ8" target="_blank" style={{textDecoration:"none", color:"white"}}>
-                {props.data ? props.data.address : "loading"}
+                <a
+                  href="https://goo.gl/maps/osYWFYjyrZi6AiXQ8"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  {props.data ? props.data.address : "loading"}
                 </a>
               </p>
             </div>
