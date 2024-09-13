@@ -244,6 +244,14 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .intro {
+    background-size: cover; /* Ensure the background image covers the full width */
+    background-position: center center; /* Center the background image */
+    background-attachment: scroll; /* Ensure the background scrolls with the content */
+  }
+}
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -352,7 +360,7 @@ header .intro-text {
 }
 #services p {
   color: rgba(3, 3, 3, 0.75);
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -375,11 +383,7 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background: linear-gradient(to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -453,7 +457,7 @@ header .intro-text {
   align-items: center !important;
   justify-content: center !important;
 }
-.team{
+.team {
   display: contents;
   margin: auto;
 }
@@ -461,7 +465,7 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 320px;
   border-radius: 10px;
 }
 #team .thumbnail {
@@ -617,5 +621,53 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+/* Blog Section*/
+.blog-item {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-text {
+  padding-left: 20px;
+}
+
+.blog-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-text p {
+  font-size: 16px;
+  color: #666;
+}
+
+.justify-text {
+  text-align: justify; /* Justify text to both left and right */
+  text-align-last: left; /* Align the last line to the left */
+}
+
+@media (max-width: 768px) {
+  .blog-item {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .blog-image {
+    margin-bottom: 20px; /* Add space between image and text */
+  }
+
+  .blog-text {
+    padding-left: 0;
+    padding-top: 0; /* Remove top padding in mobile view */
   }
 }

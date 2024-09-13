@@ -54,8 +54,8 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Please fill out the form below to send us an email and we will get back to you as
+                  soon as possible.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -173,7 +173,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            2023 • Enviremech Innovations Pvt Ltd • Enviremech Enterprises
+            2024 • Enviremech Innovations Pvt Ltd
             {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
             </a> */}
